@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의하기</title>
+
+    <link rel="stylesheet" href="stylecommon2.css">
+
+        <!-- sound -->
+<div onclick="play()">
+    <audio id='audio_play' src='fart-meme-sound (mp3cut.net).mp3'>
+    </audio> 
+    <script type="text/javascript"> 
+    function play() { 
+        var audio = document.getElementById('audio_play'); 
+        if (audio.paused) { 
+            audio.play(); 
+        }else{ 
+            audio.pause(); 
+            audio.currentTime = 0 
+        } 
+    } 
+    </script>
+
+</head>
+<body>
+    <div class="innerWrap">
+        <h1 class="two_text">문의하기</h1> <br><br>
+    </div>
+</body>
+</html>
