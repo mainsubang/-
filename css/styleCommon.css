@@ -66,19 +66,7 @@ a{text-decoration: none;}
 
 button{vertical-align: top;cursor: pointer; transition: transform 0.3s;}
 
-/* Layout */
-/* 
-#container : 전체레이아웃박스
-#innerWrap : 반응형대응 최대너비 감싸기
-header : GNB(홈|온다소개|온다일기|온다플젝|학습도우미|문의하기) 영역
-footer : Foot 영역
 
-section.mainVisualWrap : 메인비주얼 영역
-section.subVisualWrap : 서브비주얼 영역
-section.subjectWrap : 이수과목 영역
-section.poemTxtWrap : 위대한 것은 온다의 일들이니-Txt
-section.poemImgWrap : 위대한 것은 온다의 일들이니-Img
-*/
 
 footer{
     background-image: url(/img/레인보.jpg);
@@ -169,19 +157,7 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-/* 2024-08-26 온다 : 삭제
-.icoBtnWrap{
-    /* 2024-08-15 온다 : 삭제
-    position:absolute;
-    right:0;
-    top:50%;
-    //2024-08-15 온다 : 삭제 */
-    /* margin-top:-12px; //2024-08-13 온다 : 삭제 */
-    /* transform: translate(0, -50%); //2024-08-13 온다 : 추가, //2024-08-15 온다 : 삭제 */
-/* //2024-08-26 온다 : 삭제 */  
-/* 2024-08-26 온다 : 삭제
-} 
-//2024-08-26 온다 : 삭제 */
+
 .icoBtnWrap button{
   
     height: 24px;
@@ -191,12 +167,7 @@ nav ul li a:hover{
     
 
 }
-/*
-.icoBtnWrap button.icoBtn-login,
-.icoBtnWrap button.icoBtn-search{
-    /* PC,TAB 전용 버튼 */
-/*}
-*/
+
 .icoBtnWrap on.icoBtn-menu{
     display:none; /* PC,TAB 전용 버튼 */
 }
@@ -208,11 +179,7 @@ nav ul li a:hover{
 
 /* mainVisual */
 .mainTxt{
-    /*
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    */
+
     height: 270px; /* 2024-08-15 온다 : height:270px 로 변경 */
     text-align:center;
     margin-top:160px; /* 2024-08-15 온다 : margin-top:80px 로 변경, 2024-08-26 온다 : margin-top:80px 로 변경 */
@@ -312,8 +279,8 @@ nav ul li a:hover{
     line-height:1.6;
 }
 .minesunos {
-    width: 300px;
-    height: 400px;
+    width: 361px;
+    height: 528px;
 
     
 }
@@ -443,13 +410,7 @@ nav ul li a:hover{
 /*반응형 tablat*/
 /* *************************************************************** */
 @media screen and (max-width:992px){
-/* **************************************** */
-/* description : 미래유망 온다쌤
-/* keywords : 온다프로필, 온다자기소개
-/* author : 온다 */ 
-/* create Date : 2024-08-05
-/* update Date : 2024-09-11
-/* **************************************** */
+
 
 .innerWrap{
     max-width: 960px;
@@ -476,13 +437,7 @@ nav ul li a:hover{
 /*반응형 mobile*/
 /* *************************************************************** */
 @media screen and (max-width:576px){
-/* **************************************** */
-/* description : 미래유망 온다쌤
-/* keywords : 온다프로필, 온다자기소개
-/* author : 온다 */ 
-/* create Date : 2024-08-05
-/* update Date : 2024-09-11
-/* **************************************** */
+
 
 .innerWrap{
     width: 100%;
