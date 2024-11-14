@@ -314,8 +314,8 @@ nav ul li a:hover{
     line-height:1.5em;
 }
 .poemTxtInner .poemBox02 img{
-    width:376px;
-    height:500px;
+    width:204px;
+    height:203px;
     border:0;
     border-radius:50px;
 }
@@ -500,6 +500,18 @@ nav{display: none;}
   .img-box:hover img.img-hover{
     display:block
   }
+
+
+
+.img{
+    width: 209px;
+    height: 242px;
+}
+
+.img-hover{
+    width: 209px;
+    height: 242px;
+}
 
 /*animation*/
 
